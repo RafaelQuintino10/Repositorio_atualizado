@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM PROJECT</title>
+</head>
+<body>
+    <header class="conta" style="justify-content: space-around;">
+        <div class="titulo" style="text-align: center;">
+            <h1>GYM PROJECT</h1>
+           
+        </div>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">EXERCÍCIOS</a></li>
+            <li><a href="">TREINOS</a></li>
+            <li><a href="">MÚSCULOS</a></li>
+            <li><a href="">CONTATO</a></li>
+        </ul>
+    </nav>
+    
+    <div class="titulo" style="text-align: center;">
+        <h2>Esqueleto do projeto. Aqui ficaração as informações do site, apresentação...</h2>
+    </div>
+    <div class="banners">
+        <div class="conteudo">
+            <div class="card peito">PEITO</div>
+            <div class="card costas">COSTAS</div>
+            <div class="card ombro">OMBRO</div>
+            <div class="card bracos">BRAÇOS</div>
+            <div class="card pernas">PERNAS</div>
+            <div class="card gluteos">GLÚTEOS</div>
+        </div>
+    </div>
+    <style>
+        body{
+        background-color: black;
+        }
+        nav{
+        background-color: rgb(56, 48, 48);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        }
+        ul {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+        }
+        li{
+            list-style: none;
+            
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .titulo {
+            color: white;
+        }
+        .banners{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .conteudo{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 30px;
+            column-gap: 10px;
+            color: white;
+            
+           
+        }
+        .card{
+            width: 90%;
+            height: 400px;
+            background-color: rgb(56, 48, 48);
+            background-size: cover;
+            background-position: 50%, 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-align: center;
+            padding-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+            
+        }
+        .card:hover{
+            transform: scale(1.02);
+        }
+        li:hover{
+            background-color: black;
+            
+        }
+        footer{
+            height: 200px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        P{
+            color: rgb(243, 243, 243);
+            text-align: center;
+        }
+        .peito{
+            background-image: url('https://static.tuasaude.com/media/article/lb/wh/exercicios-para-peitoral_32776_l.webp');
+            
+        }
+        .costas{
+            background-image: url('https://blog.lionfitness.com.br/wp-content/uploads/2018/11/Puxada-alta-descubra-como-conquistar-costas-definidas.jpg');
+        }
+        .ombro{
+            background-image: url('https://www.portalcaraibeiras.com.br/uploads/images/2019/06/a-musculacao-na-vida-do-homem-1560779991.jpg');
+        }
+        .bracos{
+            background-image: url('https://www.manualdohomemmoderno.com.br/files/2020/05/melhores-exercicios-para-biceps-em-casa-com-e-sem-equipamento-melhores-exercicios-para-biceps-em-casa-com-e-sem-equipamento-5.jpg');
+        }
+        .pernas{
+            background-image: url('https://st.depositphotos.com/2389277/4385/i/450/depositphotos_43856663-stock-photo-bodybuilder-legs.jpg');
+        }
+        .gluteos{
+            background-image: url('https://cdn.vidaativa.pt/uploads/2019/11/hipertrofia-de-gluteos.jpg');
+        }
+    </style>
+    <footer>
+        <p>DESENOVLVIDO POR FRONT DEV STUDIO</p>
+    </footer>
+</body>
+</html>
